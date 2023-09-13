@@ -1,9 +1,7 @@
 name: Release nightly
 
 on:
-  schedule:
-    # Run at 5:30 am, daily.
-    - cron: '15 5 * * *'
+  push:
   workflow_dispatch:
 
 env:
